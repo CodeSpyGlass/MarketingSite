@@ -5,6 +5,11 @@ function App() {
     return (
         <div className="Website">
             <header className="Website-header">
+                <div className="Site-header-nav-bar">
+                    <span className="Site-header-nav-bar-choice">About</span>
+                    <span className="Site-header-nav-bar-choice">Product</span>
+                    <span className="Site-header-nav-bar-choice">Contact</span>
+                </div>
                 <div className="Site-header-solution-name">CodeSpyGlass</div>
                 <div className="Site-header-tagline">Tech recruitment isn't working.</div>
                 <div className="Why-we-are-here">
@@ -19,7 +24,8 @@ function App() {
                 <span className="Existing-approach-poison-list-container">
                     <ul className="Existing-approach-poison">
                         <span>Leetcode, Hackerrank etc.</span>
-                        <li>Fails to measure the things that are really important: Working collaboratively<br/>on larger code-bases over time</li>
+                        <li>Fails to measure the things that are really important: Collaboratively<br/>
+                            working on larger code-bases over time</li>
                         <li>Weak evaluation which must be manually re-done later</li>
                         <li>Only useful to thin out the recruitment pipeline, which it does badly</li>
                         <li>Major source of negative candidate experiences</li>
@@ -27,13 +33,18 @@ function App() {
                 </span>
                 <span className="Existing-approach-poison-list-container">
                     <ul className="Existing-approach-poison">
-                        <span>Manual everything</span>
+                        <span>In-house & Manual</span>
                         <li>Expensive</li>
                         <li>Bias-prone</li>
                         <li>Variability in quality and results</li>
+                        <li>The organisation must continuously invest to stay up-to-date with<br/>
+                            industry standards in candidate evaluation</li>
                     </ul>
                 </span>
             </span>
+            <div className="Our-solution">
+                <div className="Our-solution-header">Our solution</div>
+            </div>
         </div>
     );
 }

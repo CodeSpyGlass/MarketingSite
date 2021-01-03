@@ -6,6 +6,23 @@ header.Website-header {
     font-weight: bold;
 }
 
+div.Site-header-nav-bar {
+    font-weight: normal;
+    text-align: right;
+    margin-right: 5vw;
+    margin-top: 2vh;
+}
+
+span.Site-header-nav-bar-choice {
+    margin-left: 2vw;
+}
+
+span.Site-header-nav-bar-choice:hover {
+    text-decoration: underline;
+    color: #f44336;
+    cursor: pointer;
+}
+
 div.Site-header-solution-name {
     font-size: calc(10px + 1vmin);
     margin-top: 10vh;
@@ -68,4 +85,18 @@ ul.Existing-approach-poison span {
 
 ul.Existing-approach-poison li {
     margin-top: 10px;
+}
+
+div.Our-solution {
+    margin-top: 10vh;
+    background-color: black;
+    color: white;
+    padding-bottom: 50vh;
+    text-align: center;
+}
+
+div.Our-solution-header {
+    font-weight: bold;
+    font-size: calc(10px + 4vmin);
+    padding-top: 5vh;
 }
