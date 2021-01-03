@@ -12,22 +12,28 @@ function App() {
                     - <span>skills evaluation.</span>
                 </div>
             </header>
-            <div className="Existing-approach-problems">
+            <div className="Existing-approach-pick-your-poison">
                 The status quo: <span>Pick your poison.</span>
             </div>
-            {/* Present below status-quo-options side-by-side as unordered lists */}
-            {/*  Option 1: leetcode and hackerrank:
-                    - Weak evaluation which must be manually redone later
-                    - Fails to measure things that are really important:
-                      Working collaboratively on larger code-bases over time
-                    - Only used to thin out the recruitment pipeline, which it does badly
-                    - Causes negative candidate experiences
-            */}
-            {/*  Option 2: manual verification all the way
-                    - Expensive
-                    - Bias-prone
-                    - Variability in quality and results
-            */}
+            <span className="Existing-approach-poison-lists">
+                <span className="Existing-approach-poison-list-container">
+                    <ul className="Existing-approach-poison">
+                        <span>Leetcode, Hackerrank etc.</span>
+                        <li>Fails to measure the things that are really important: Working collaboratively<br/>on larger code-bases over time</li>
+                        <li>Weak evaluation which must be manually re-done later</li>
+                        <li>Only useful to thin out the recruitment pipeline, which it does badly</li>
+                        <li>Major source of negative candidate experiences</li>
+                    </ul>
+                </span>
+                <span className="Existing-approach-poison-list-container">
+                    <ul className="Existing-approach-poison">
+                        <span>Manual everything</span>
+                        <li>Expensive</li>
+                        <li>Bias-prone</li>
+                        <li>Variability in quality and results</li>
+                    </ul>
+                </span>
+            </span>
         </div>
     );
 }

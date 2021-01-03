@@ -1,31 +1,31 @@
-.Website {
+div.Website {
 }
 
-.Website-header {
+header.Website-header {
     text-align: center;
     font-weight: bold;
 }
 
-.Site-header-solution-name {
+div.Site-header-solution-name {
     font-size: calc(10px + 1vmin);
     margin-top: 10vh;
 }
 
-.Site-header-tagline {
+div.Site-header-tagline {
     font-size: calc(10px + 5vmin);
     margin-top: 5vh;
 }
 
-.Why-we-are-here {
+div.Why-we-are-here {
     font-size: calc(10px + 1vmin);
     margin-top: 5vh;
 }
 
-.Why-we-are-here span {
+div.Why-we-are-here span {
     color: #f44336;
 }
 
-.Existing-approach-problems {
+div.Existing-approach-pick-your-poison {
     text-align: center;
     font-size: calc(10px + 2vmin);
     font-weight: bold;
@@ -34,6 +34,38 @@
     margin-top: 5vh;
 }
 
-.Existing-approach-problems span {
+div.Existing-approach-pick-your-poison span {
     color: #4db560;
+}
+
+span.Existing-approach-poison-lists {
+    margin-left: 20vw;
+}
+
+span.Existing-approach-poison-list-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3vh;
+    margin-right: 1vw
+}
+
+ul.Existing-approach-poison {
+    border: 2px solid lightgrey;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+ul.Existing-approach-poison:hover {
+    border-color: #4db560;
+    cursor: pointer;
+}
+
+ul.Existing-approach-poison span {
+    font-weight: bold;
+}
+
+ul.Existing-approach-poison li {
+    margin-top: 10px;
 }
