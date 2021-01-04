@@ -99,4 +99,33 @@ div.Our-solution-header {
     font-weight: bold;
     font-size: calc(10px + 4vmin);
     padding-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+div.Our-solution-Slide {
+    display: inline-flex;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 30px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+div.Our-solution-Slide img {
+    /**
+    Since these images are screenshots, they are best rendered using my Mac display's height:width ratio, which is 1.6
+    */
+    --h: 30vw;
+    width: calc(1.6 * var(--h));
+    height: var(--h);
+}
+
+div.Our-solution-Slide-Text {
+    margin-left: 2vw;
+    text-align: left;
+}
+
+div.Our-solution-Slide-Text h1 {
+    font-weight: bold;
+    font-size: 7vmin;
 }

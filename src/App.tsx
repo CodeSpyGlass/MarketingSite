@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import sarupGithub from './Sarup_GitHub.png';
 
 function App() {
     return (
@@ -44,6 +45,12 @@ function App() {
             </span>
             <div className="Our-solution">
                 <div className="Our-solution-header">Our solution</div>
+                <div className="Our-solution-Slide">
+                    <img src={sarupGithub} alt="sarup-github"/>
+                    <div className="Our-solution-Slide-Text">
+                        <h1>There is so much<br/>relevant data!</h1>
+                    </div>
+                </div>
             </div>
         </div>
     );
