@@ -1,3 +1,3 @@
-# MarketingSite for CodeSpyGlass
+# WebSite for CodeSpyGlass
 
-This site is to help with customer discovery.
+This site is to show the use cases and all that.
